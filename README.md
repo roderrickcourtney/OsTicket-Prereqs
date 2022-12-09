@@ -38,7 +38,63 @@ Create a Virtual Machine with Azure to run this lab. Remote Desktop into the cre
 <img src="https://imgur.com/n9ibcLa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install/Enable Internet Information Services in windows. This is done by going to "control panel","programs", "Turn Windows features on or off", lastly check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly.
+Install/Enable Internet Information Services in windows. This is done by going to "control panel","programs", "Turn Windows features on or off", lastly check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/YBPThz1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: Add SQL & All PHP (x86) versions during install up until 7.3, Find and install PHP Manager version 7.3.8 & version 1.5.0. 
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/t2OkA7p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search the internet for "osTicket-v1.15.8" and download it. Next, copy the upload folder from inside the OsTicket installation files to c:\inetpub\wwwroot. Within c:\inetput\wwwroot folder, rename "upload" folder to "OsTicket". Open ISS, click "osTicket", next click Browse*80 then restart ISS
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/KL5FPaL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search and open IIS program via windows search bar. Next, restart IIS server client for changes to take effect.  
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/zWbAuXn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: Add SQL & All PHP (x86) versions during install up until 7.3, Find and install OsTicket. 
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/zWbAuXn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: Add SQL & All PHP (x86) versions during install up until 7.3, Find and install OsTicket. 
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/zWbAuXn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: Add SQL & All PHP (x86) versions during install up until 7.3, Find and install OsTicket. 
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/zWbAuXn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: Add SQL & All PHP (x86) versions during install up until 7.3, Find and install OsTicket. 
 </p>
 <br />
 
