@@ -119,6 +119,7 @@ Install a program called HeidiSQl (can be searched online) that OsTicketing Syst
 
 <p>
 <img src="https://imgur.com/Dm38qAa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Vg67uNm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 You should see a congratulations screen in the browser window if everything was done correctly. Clients are now able to successfully create help desk tickets. That concludes the lab. Once again, thank you very much for viewing! 
