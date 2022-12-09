@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket through an Azure VM. The installation instructions written in this guide came directly from OsTicket. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -17,34 +17,35 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Azure Virtual Machine
-- Remote Desktop
-- Also 3
-- Also 4
-- Also 5
+- Internet Information Services (IIS)
+- Microsoft Web Platform Installer
+- PHP Manager
+- My SQL
+- C++ 2008 Redistributable
 
 <h2>Installation Steps</h2>
 
 <p>
 <img src="https://imgur.com/qXWOfvq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/egJMdgS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-A Virtual Machine created with Azure to run this lab.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Remote Desktop is needed to control the VM.
+Create a Virtual Machine with Azure to run this lab. Remote Desktop into the created VM. 
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/gallery/UCRYCgE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/n9ibcLa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.
+Install/Enable Internet Information Services in windows. This is done by going to "control panel","programs", "Turn Windows features on or off", lastly check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/zWbAuXn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: Add SQL & All PHP (x86) versions during install up until 7.3, Find and install OsTicket. 
 </p>
 <br />
