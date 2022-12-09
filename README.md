@@ -44,9 +44,10 @@ Install/Enable Internet Information Services in windows. This is done by going t
 
 <p>
 <img src="https://imgur.com/YBPThz1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/OjPupsw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: Add SQL & All PHP (x86) versions during install up until 7.3, Find and install PHP Manager version 7.3.8 & version 1.5.0. 
+Search the internet for the installation files you will need to insatll. Find and install Web Platform Installer: open Web Platform Installer and search to add "MySQL 5.5" & search to add all simple versions of PHP (x86) up until 7.3. Create username and password when asked to finish installation. Web installer will attempt to finish installing all of the prerequistes that are checked. Continue to finish with installation. Find and install PHP Manager version 7.3.8 & version 1.5.0. 
 </p>
 <br />
 
