@@ -111,17 +111,16 @@ After all previous steps are complete, the OsTicketing system should be fully fu
 
 <p>
 <img src="https://imgur.com/iecoXP0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/Dm38qAa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install the program called HeidiSQl that OsTicketing System uses to connect with Databases. Then you must create a new database to be used with the new ticketing setup titled "OsTicket". Now, finish filling out the information in the OsTicket browser (MySQL will be the new database's name) and use the same user name and passwork from throughout the lab. You should see a congratulations screen in the browser window if everything was done correctly.
+Install a program called HeidiSQl (can be searched online) that OsTicketing System uses to connect with Databases. Then you must create a new database to be used with the new ticketing setup titled "OsTicket". Now, finish filling out the information in the OsTicket browser (MySQL will be the new database's name) and use the same user name and passwork from throughout the lab. 
 </p>
 <br />
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Dm38qAa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Clients are now able to successfully create help desk tickets. That concludes the lab. Once again, thank you very much for viewing! 
+You should see a congratulations screen in the browser window if everything was done correctly. Clients are now able to successfully create help desk tickets. That concludes the lab. Once again, thank you very much for viewing! 
 </p>
 <br />
