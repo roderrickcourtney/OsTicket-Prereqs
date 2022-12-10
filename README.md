@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/egJMdgS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a Virtual Machine with Azure to run this lab. Remote Desktop into the created VM. 
+Create a "Virtual Machine" with Azure to run this lab. "Remote Desktop" into the created VM. 
 </p>
 <br />
 
@@ -38,7 +38,7 @@ Create a Virtual Machine with Azure to run this lab. Remote Desktop into the cre
 <img src="https://imgur.com/n9ibcLa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install/Enable Internet Information Services in windows: "control panel" --> "programs" --> "Turn Windows features on or off" --> check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
+Install/Enable Internet "Internet Information Services" (IIS) in windows: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ Install/Enable Internet Information Services in windows: "control panel" --> "pr
 <img src="https://imgur.com/OjPupsw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Search the internet for the installation files you will need to insatll. Find and install: Web Platform Installer & open Web Platform Installer. Search Web Platform Installer to add "MySQL 5.5" & search to add all simple versions of PHP (x86) up until 7.3. Create username and password when asked to finish installation. Web installer will attempt to finish installing all of the prerequistes that are checked (some of the downloads will fail, just manually download C++ redistribuable & PHP Manager via files found online). Continue to finish with installation. Find and install PHP Manager version 7.3.8 & version 1.5.0. 
+Search the internet for the installation files you will need to insatll. Find and install: "Web Platform Installer" & open "Web Platform Installer". Search Web Platform Installer to add "MySQL 5.5" & search to add all simple versions of PHP (x86) up until 7.3. "Create username" and "password" when asked to finish installation. Web installer will attempt to finish installing all of the prerequistes that are checked (some of the downloads will fail, just manually download C++ redistribuable & PHP Manager via files found online). Continue to finish with installation. Find and install "PHP Manager" version 7.3.8 & version 1.5.0. 
 </p>
 <br />
 
@@ -55,7 +55,7 @@ Search the internet for the installation files you will need to insatll. Find an
 <img src="https://imgur.com/t2OkA7p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Search the internet for "osTicket-v1.15.8" and download it. Next, copy the upload folder from inside the OsTicket installation files to c:\inetpub\wwwroot. Within c:\inetput\wwwroot folder, rename "upload" folder to "OsTicket". Open "ISS"--> "osTicket"--> "Browse*80" --> restart ISS
+Search the internet for "osTicket-v1.15.8" and download it. Next, copy the "upload folder" from inside the OsTicket installation files to "c:\inetpub\wwwroot". Within c:\inetput\wwwroot folder --> rename "upload folder" to "OsTicket" --> Open IIS--> osTicket--> Browse*80 --> restart IIS
 </p>
 <br />
 
@@ -63,7 +63,7 @@ Search the internet for "osTicket-v1.15.8" and download it. Next, copy the uploa
 <img src="https://imgur.com/KL5FPaL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Search and open "IIS program" againn via windows search bar. Next, restart IIS server client for changes to take effect.  
+Search and open "IIS program" again via windows search bar. Next, restart IIS server client for changes to take effect.  
 </p>
 <br />
 
@@ -71,7 +71,7 @@ Search and open "IIS program" againn via windows search bar. Next, restart IIS s
 <img src="https://imgur.com/AKPxXsc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After IIS restart --> "OsTicket" within IIS under "Default Website" --> click "Browse*:80". 
+After IIS restart --> select "OsTicket" within IIS under "Default Website" --> click Browse*:80. 
 </p>
 <br />
 
@@ -79,7 +79,7 @@ After IIS restart --> "OsTicket" within IIS under "Default Website" --> click "B
 <img src="https://imgur.com/OdzWcn5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-If you have installed all prerequisites and followed all steps up to this point correctly, then you should the OS Ticketing system open in the browser after the "browser*:80 port" is clicked in the previous step. 
+If you have installed all prerequisites and followed all steps up to this point correctly, then the OS Ticketing system should open in the browser after the "browser*:80 port" is clicked in the previous step. 
 </p>
 <br />
 
@@ -97,7 +97,7 @@ Click the "PHP Manager" option in ISS (If the option does not show then restart 
 <img src="https://imgur.com/INrk5kt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php --> Assign permissions: under security tab --> click advanced --> disable inheritance: remove all inheritance --> allow all permisions: click "add", select a "principal", enter "everyone" in object name field --> allow full control permissions. This will allow full control for everyone. 
+Rename "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php" --> Assign permissions: under security tab --> click advanced --> disable inheritance: remove all inheritance --> allow all permisions: click "add", select a "principal", enter "everyone" in object name field --> allow full control permissions. This will allow full control for everyone. 
 </p>
 <br />
 
@@ -113,7 +113,7 @@ After all previous steps are complete, the OsTicketing system should be fully fu
 <img src="https://imgur.com/iecoXP0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install a program called HeidiSQl (can be searched online) that OsTicketing System uses to connect with Databases. Create a new database to be used with the new ticketing setup titled "OsTicket". Now, finish filling out the information in the OsTicket browser (MySQL will be the new database's name) and use the same user name and passwork from throughout the lab. 
+Install a program called "HeidiSQl" (can be searched online) that OsTicketing System uses to connect with Databases. Create a new "database" to be used with the new ticketing setup titled "OsTicket". Now, finish filling out the information in the OsTicket browser (MySQL will be the new database's name) and use whichever username and password that you created earlier in the lab. 
 </p>
 <br />
 
@@ -122,6 +122,6 @@ Install a program called HeidiSQl (can be searched online) that OsTicketing Syst
 <img src="https://imgur.com/Vg67uNm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-You should see a congratulations screen in the browser window if everything was done correctly. Clients are now able to successfully create help desk tickets. That concludes the lab. Once again, thank you very much for viewing! 
+You should see a congratulations screen in the browser window if everything was done correctly. Clients are now able to successfully create help desk tickets. That concludes the lab.
 </p>
 <br />
