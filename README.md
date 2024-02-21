@@ -38,7 +38,7 @@ Create a "Virtual Machine" with Azure to run this lab. "Remote Desktop" into the
 <img src="https://imgur.com/n9ibcLa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install/Enable "Internet Information Services" (IIS) in windows: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
+Enable "Internet Information Services" (IIS) in Windows Features: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services".  IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
 </p>
 <br />
 
