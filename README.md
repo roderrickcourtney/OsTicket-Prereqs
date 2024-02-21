@@ -47,7 +47,7 @@ Enable "Internet Information Services" (IIS) in Windows Features: control panel 
 <img src="https://imgur.com/OjPupsw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Search the internet for the installation files you will need to insatll. Find and install: "Web Platform Installer" & open "Web Platform Installer". Search Web Platform Installer to add "MySQL 5.5" & search to add all simple versions of PHP (x86) up until 7.3. "Create username" and "password" when asked to finish installation. Web installer will attempt to finish installing all of the prerequistes that are checked (some of the downloads will fail, just manually download C++ redistribuable & PHP Manager via files found online). Continue to finish with installation. Find and install "PHP Manager" version 7.3.8 & version 1.5.0. 
+Search the internet for the required installation files. Find and install: "Web Platform Installer" > open "Web Platform Installer" > Search Web Platform Installer to add "MySQL 5.5" > search to add all simple versions of PHP (x86) up until 7.3 > Create "username" and "password" when asked to finish installation. Web installer will attempt to finish installing all of the prerequistes that are checked. Some of the downloads may fail fail. If so, manually download C++ redistribuable & PHP Manager via files found online. Continue to finish with installation. Find and install "PHP Manager" version 7.3.8 & version 1.5.0. 
 </p>
 <br />
 
